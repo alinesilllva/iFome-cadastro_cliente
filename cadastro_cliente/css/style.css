@@ -1,0 +1,72 @@
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    padding: 10px 20px;
+}
+p {
+    margin: 10px 20px;
+}
+
+form {
+    border: 1px solid #eee;
+    padding: 30px 30px 20px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 600px;
+}
+
+label {
+    flex: none;
+    display: block;
+    min-width: 120px;
+    width: 25%;
+    font-weight: bold;
+    font-size: 1em;
+    padding: 5px 8px 0;
+    text-transform: capitalize;
+}
+
+input {
+    flex: 1 1 auto;
+    display: block;
+    margin-bottom: 10px;
+    margin-right: 8px;
+    padding: 8px;
+    min-width: 150px;
+    width: 65%;
+    border: 1px solid #ccc;
+}
+input[type=submit] {
+    margin-left: 27.7%;
+    border: none;
+    background-color: #28a745;
+    padding: 15px 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+}
+
+@media (max-width: 600px) {
+    input, label {
+        width: 100%;
+    }
+    input[type=submit] {
+        margin-left: 0;
+    }
+    label {
+        margin-bottom: 5px;
+    }
+  }
+  
